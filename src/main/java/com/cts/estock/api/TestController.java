@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 @RequestMapping("/test")
 public class TestController{
-@GetMapping
+@GetMapping("/v1")
 public String testApi(){
     return "APi test is working on Azure";
 }
